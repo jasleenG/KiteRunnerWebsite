@@ -1,0 +1,68 @@
+@import url(//font.googleapis.com/earlyaccess/jejuhallasan.css);
+
+
+body {
+    background-color: #FDF4E5;
+}
+
+nav {
+    background-color: #9A6C2E;
+    padding: 10px; /* padding to top and bottom of nav bar */
+}
+
+nav ul {
+    list-style: none; /*removes default bullet points from nav list items */
+    margin: 0; 
+    padding: 0; 
+    display: flex; /*flex container*/
+    justify-content: space-between; /*evenly spaced*/
+
+
+}
+
+nav li {
+    margin: 0 10px; /*spacing between each nav item */
+
+}
+
+nav a {
+    color: #FDF4E5;
+    text-decoration: none; /*gets rid of underline */
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+nav a:hover{
+    color: 5E3512;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+}
+
+.left{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px; 
+
+}
+
+.mid{
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px; 
+        padding-top: 20px; 
+        padding-bottom: 5px;
+    
+    }
+
+.smallimg{
+    width: 70%;
+    height: auto; 
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
